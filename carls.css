@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(86, 136, 86, 0.562);
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(43, 27, 16)
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .pokemon {
+    flex-basis: calc(20% - 20px);
+    margin-bottom: 49px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .pokemon img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .pokemon h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(112, 60, 24)
+  }
+  
+  .pokemon p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000000;
+  }
+  
+  .pikachu {
+    background-color: rgb(252, 252, 176);
+  }
+  
+  .charizard {
+    background-color: rgb(255, 159, 80);
+  }
+  
+  .bulbasaur {
+    background-color: lightgreen;
+  }
+  
+  .squirtle {
+    background-color: lightblue;
+  }
+  
+  .eevee {
+    background-color: burlywood;
+  }
+  
+  ul {
+    color: rgb(112, 60, 24);
+    font-size: 20px;
+
+  }
+
+  button {
+    padding: 5px;
+    background-color: gray;
+    color: rgb(43, 27, 16);
+    border: none;    
+    text-align: center;
+    font-size: 20px;
+  }
